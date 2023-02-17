@@ -164,10 +164,15 @@ a{
 
 /* Experience */
 
+.experience .container-medium hr{
+  border-color: #c6c6c6;
+  margin-bottom: 50px;
+}
+
 .experience{
   height: 100%;
-  padding-top: 60px;
-  padding-bottom: 80px;
+  padding-top: 0px;
+  padding-bottom: 12%;
 }
 
 .experience h3{
@@ -273,7 +278,7 @@ a{
   z-index: 1;
 }
 
-/* Project (Momentaneamente inattivo/Code mancante in index.html) */
+/* Project */
 
 .featured-project .container-medium hr{
   border-color: #c6c6c6;
@@ -314,7 +319,7 @@ a{
 
 .box-featured-projects .project p{
   margin-top: 10px;
-  font-family: var(--font-primary);
+  font-family: var(--font-prmary);
   font-weight: 300;
   font-size: 14px;
   letter-spacing: .05rem;
@@ -363,15 +368,20 @@ footer .box-contact{
 
 .contact-email{
   border:2px solid;
-  border-image-source: linear-gradient(51.06deg, #000000 0.87%, #343434 7.31%, #676767 13.75%, #bababa 20.19%, #242425 26.63%, #444444 33.07%, #646464 39.51%, #7e7f82 45.95%, #232323 52.39%, #393a3b 58.84%, #1d1e1e 65.28%, #363636 71.72%, #262a2a 78.16%, #484949 84.6%, #020202 91.04%, #e7e5e5 97.48%);
+  border-image-source: linear-gradient(132.33deg, #545354 -0.67%, #b0afb0 102.54%);
 }
 
 .contact-linkedin{
   border:2px solid;
-  border-image-source: linear-gradient(135deg, #0e0e0e 2.88%, #797979 100%);
+  border-image-source: linear-gradient(132.33deg, #545354 -0.67%, #b0afb0 102.54%);
 }
 
 .contact-github{
+  border: 2px solid;
+  border-image-source: linear-gradient(132.33deg, #545354 -0.67%, #b0afb0 102.54%);
+}
+
+.contact-google-maps{
   border: 2px solid;
   border-image-source: linear-gradient(132.33deg, #545354 -0.67%, #b0afb0 102.54%);
 }
