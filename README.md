@@ -10,5 +10,3 @@ _If you want to use this template, to make your personal portfolio, it's recomme
 > Interactive forms<br>
 > Html, JavaScript, CSS<br>
 > Easy to use
-
-This project is inspired by: @bedddev
